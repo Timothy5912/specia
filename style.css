@@ -1,0 +1,10 @@
+body{margin:0;font-family:Arial;background:linear-gradient(45deg,#ff8fb1,#ffd6e7);overflow:hidden;-webkit-tap-highlight-color:transparent}
+.center{display:flex;flex-direction:column;justify-content:center;align-items:center;height:100vh;text-align:center;color:#fff;padding:20px;box-sizing:border-box}
+.btn{padding:18px 40px;margin:12px;border:none;border-radius:30px;font-size:22px;cursor:pointer;touch-action:manipulation;-webkit-appearance:none}
+.yes{background:#ff2d55;color:#fff}
+.no{background:#fff;color:#ff2d55;position:absolute}
+.heart{position:fixed;color:#fff;animation:float 8s linear infinite}
+@keyframes float{from{transform:translateY(110vh)}to{transform:translateY(-10vh)}}
+h1{font-size:clamp(32px,8vw,56px);margin:10px 0}
+p{font-size:clamp(16px,4.5vw,24px);margin:8px 0;padding:0 10px}
+.photo{width:clamp(130px,40vw,180px);height:clamp(130px,40vw,180px);border-radius:50%;object-fit:cover;border:5px solid #fff;box-shadow:0 0 20px rgba(255,255,255,0.6);margin-bottom:20px}
